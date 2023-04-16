@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/java-05-instanceof-pattern-matching/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-00-local-variables" />
+        <module name="java-01-records" />
+        <module name="java-10-lambda-expressions" />
+        <module name="java-05-instanceof-pattern-matching" />
+        <module name="java-03-sealed-classes-and-interfaces" />
+        <module name="java-07-try-with-autocloseable" />
+        <module name="java-02-text-blocks" />
+        <module name="java-03-advanced-classes-and-interfaces" />
+        <module name="java-08-optional" />
+        <module name="java-04-switch-expressions" />
+        <module name="java-06-working-with-annotations" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Core-Java-Features/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Core-Java-Features/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-00-local-variables/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-00-local-variables/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-01-records/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-01-records/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-02-text-blocks/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-02-text-blocks/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-03-sealed-classes-and-interfaces/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-03-sealed-classes-and-interfaces/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-04-switch-expressions/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-04-switch-expressions/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-05-instanceof-pattern-matching/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-05-instanceof-pattern-matching/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-06-working-with-annotations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-06-working-with-annotations/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-07-try-with-autocloseable/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-07-try-with-autocloseable/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-08-optional/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-08-optional/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-09-advanced-classes-and-interfaces/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-09-advanced-classes-and-interfaces/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-10-lambda-expressions/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/java-10-lambda-expressions/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SE-17-Features/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

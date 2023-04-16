@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-09-advanced-classes-and-interfaces" />
+        <module name="java-01-records" />
+        <module name="java-10-lambda-expressions" />
+        <module name="java-multithreading-00-basics" />
+        <module name="java-03-sealed-classes-and-interfaces" />
+        <module name="java-02-text-blocks" />
+        <module name="java-06-working-with-annotations" />
+        <module name="java-00-local-variables" />
+        <module name="java-multithreading" />
+        <module name="java-05-instanceof-pattern-matching" />
+        <module name="java-07-try-with-autocloseable" />
+        <module name="java-08-optional" />
+        <module name="java-04-switch-expressions" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-01-text-blocks" target="17" />
+      <module name="java-02-sealed-classes-and-interfaces" target="17" />
+      <module name="java-03-advanced-classes-and-interfaces" target="11" />
+      <module name="java-04-generics" target="11" />
+      <module name="java-05-lambda-expressions" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
