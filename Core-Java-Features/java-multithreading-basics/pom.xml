@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>java-multithreading</artifactId>
+    <artifactId>java-multithreading-basics</artifactId>
     <packaging>jar</packaging>
 
     <properties>
