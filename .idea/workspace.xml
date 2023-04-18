@@ -5,74 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="215c8cb4-eecf-4876-8061-6d222c41a7b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex1/ThreadCreationsExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex1/ThreadWithRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex1/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex2/ThreadSleepWaitJoinExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex3/DaemonThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex3/GenericWDThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex3/ThreadPriorityExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex3/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex4/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex4/SynchrinizationExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex4/SynchronizedCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex4/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex5/HandleWIthCustomObjectLocking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex5/ObjectLockingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex5/ProblemWithSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex5/ReentrantLockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex6/PCUsingSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex6/PCUsingSemaphoreExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex6/ProducerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex6/ProducerConsumerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex6/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-00-local-variables/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-00-local-variables/src/main/java/com/jstobigdata/jdk17/localvariables/ArrayExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-00-local-variables/src/main/java/com/jstobigdata/jdk17/localvariables/ForLoopExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-00-local-variables/src/main/java/com/jstobigdata/jdk17/localvariables/LambdaExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-00-local-variables/src/main/java/com/jstobigdata/jdk17/localvariables/LocalVariableExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-00-local-variables/src/main/java/com/jstobigdata/jdk17/localvariables/TryResourceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-01-records/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-01-records/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-01-records/src/main/java/com/jstobigdata/jdk17/records/ex1/ProductCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-01-records/src/main/java/com/jstobigdata/jdk17/records/ex1/ProductCategoryR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-01-records/src/main/java/com/jstobigdata/jdk17/records/ex1/TestRecordsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-01-records/src/main/java/com/jstobigdata/jdk17/records/ex2/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-01-records/src/main/java/com/jstobigdata/jdk17/records/ex2/ProductRecordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-01-records/src/main/java/com/jstobigdata/jdk17/records/ex3/CollectionsUtilsExample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-01-records/src/main/java/com/jstobigdata/jdk17/records/ex3/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-01-records/src/main/java/com/jstobigdata/jdk17/records/ex3/RecordBuilderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-02-text-blocks/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-02-text-blocks/src/main/java/com/jstobigdata/jdk17/textblocks/JsonExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-02-text-blocks/src/main/java/com/jstobigdata/jdk17/textblocks/TestTextBlocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-02-text-blocks/src/main/java/com/jstobigdata/jdk17/textblocks/TextBlockExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-03-sealed-classes-and-interfaces/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-03-sealed-classes-and-interfaces/src/main/java/com/jstobigdata/jdk17/sealed/ex1/AppLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-03-sealed-classes-and-interfaces/src/main/java/com/jstobigdata/jdk17/sealed/ex1/ConsoleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-03-sealed-classes-and-interfaces/src/main/java/com/jstobigdata/jdk17/sealed/ex1/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-03-sealed-classes-and-interfaces/src/main/java/com/jstobigdata/jdk17/sealed/ex1/SealedClassExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-03-sealed-classes-and-interfaces/src/main/java/com/jstobigdata/jdk17/sealed/ex2/EmailLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-03-sealed-classes-and-interfaces/src/main/java/com/jstobigdata/jdk17/sealed/ex2/InternationalSmsLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-03-sealed-classes-and-interfaces/src/main/java/com/jstobigdata/jdk17/sealed/ex2/SealedInterfaceClassExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-03-sealed-classes-and-interfaces/src/main/java/com/jstobigdata/jdk17/sealed/ex2/SmsLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-03-sealed-classes-and-interfaces/src/main/java/com/jstobigdata/jdk17/sealed/ex2/TransactionLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-03-sealed-classes-and-interfaces/src/main/java/com/jstobigdata/jdk17/sealed/ex3/SealedRecordsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-04-switch-expressions/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-04-switch-expressions/src/main/java/com/jstobigdata/jdk17/switchex/ex0/ExhaustivenessEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-04-switch-expressions/src/main/java/com/jstobigdata/jdk17/switchex/ex0/JDK7SwitchEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-04-switch-expressions/src/main/java/com/jstobigdata/jdk17/switchex/ex0/NewSwitchExpressions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-04-switch-expressions/src/main/java/com/jstobigdata/jdk17/switchex/ex0/WithYield.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-05-instanceof-pattern-matching/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-05-instanceof-pattern-matching/src/main/java/com/jstobigdata/jdk17/pattern/instanceofex/InstanceOfExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-05-instanceof-pattern-matching/src/main/java/com/jstobigdata/jdk17/pattern/instanceofex/InstanceOfSwitchEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-06-working-with-annotations/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-07-try-with-autocloseable/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-08-optional/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-09-advanced-classes-and-interfaces/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/java-10-lambda-expressions/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SE-17-Features/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex7/ThreadVerify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex7/VolatileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex7/VolatileExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,12 +42,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Core-Java-Features/java-streams-examples" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.jstobigdata.jdk17.sealed.ex2" />
@@ -126,7 +61,7 @@
       <recent name="com.jstobigdata.jdk17.records.ex2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReentrantLockExample">
+  <component name="RunManager" selected="Application.ThreadVerify">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -140,34 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectLockingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex5.ObjectLockingExample" />
-      <module name="java-multithreading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jstobigdata.multithreading.ex5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PCUsingSemaphoreExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex6.PCUsingSemaphoreExample" />
-      <module name="java-multithreading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jstobigdata.multithreading.ex6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex6.ProducerConsumerExample" />
       <module name="java-multithreading" />
       <extension name="coverage">
         <pattern>
@@ -205,13 +114,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadVerify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex7.ThreadVerify" />
+      <module name="java-multithreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jstobigdata.multithreading.ex7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VolatileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex7.VolatileExample" />
+      <module name="java-multithreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jstobigdata.multithreading.ex7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadVerify" />
+        <item itemvalue="Application.VolatileExample" />
         <item itemvalue="Application.ReentrantLockExample" />
         <item itemvalue="Application.SynchrinizationExample1" />
         <item itemvalue="Application.PCUsingSemaphoreExample" />
-        <item itemvalue="Application.ProducerConsumerExample" />
-        <item itemvalue="Application.ObjectLockingExample" />
       </list>
     </recent_temporary>
   </component>

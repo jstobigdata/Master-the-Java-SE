@@ -9,16 +9,22 @@ package com.jstobigdata.multithreading.ex7;
 public class VolatileExample {
 
     //TODO - remove volatile and check
-    private  int count = 0;
+    private volatile int count = 0;
 
     public void increment() {
-        for (int i = 0; i < 10000; i++) {
-            System.out.println("Counter-%s: %s".formatted(Thread.currentThread().getName(), count++));
+        for (int i = 0; i < 100; i++) {
+            System.out.println("Counter-%s: %s".formatted(Thread.currentThread().getName(), count));
+            count = count + 1;
         }
 
     }
 
     public void printCount() {
+        try {
+            Thread.sleep(5);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println("Count: " + count);
     }
 
