@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="215c8cb4-eecf-4876-8061-6d222c41a7b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex7/ThreadVerify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex10/semaphores/SemaphoreEnumEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex10/semaphores/SemaphoreExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex10/semaphores/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/DeadLocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/DeadLocksB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex9/atomic/NoAtomicIntegerProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex7/VolatileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex7/VolatileExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +46,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "full.screen.before.presentation.mode": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.jstobigdata.jdk17.sealed.ex2" />
@@ -56,12 +62,13 @@
       <recent name="$PROJECT_DIR$/Java-SE-17-Features/java-02-sealed-classes-and-interfaces/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jstobigdata.multithreading.ex9.atomic" />
       <recent name="com.jstobigdata.jdk17.sealed.ex1" />
       <recent name="com.jstobigdata.jdk17.sealed.ex2" />
       <recent name="com.jstobigdata.jdk17.records.ex2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadVerify">
+  <component name="RunManager" selected="Application.SemaphoreExample">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -75,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PCUsingSemaphoreExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex6.PCUsingSemaphoreExample" />
+    <configuration name="AtomicIntegerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex9.atomic.AtomicIntegerExample" />
       <module name="java-multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jstobigdata.multithreading.ex6.*" />
+          <option name="PATTERN" value="com.jstobigdata.multithreading.ex9.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex5.ReentrantLockExample" />
+    <configuration name="NoAtomicIntegerProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex9.atomic.NoAtomicIntegerProblem" />
       <module name="java-multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jstobigdata.multithreading.ex5.*" />
+          <option name="PATTERN" value="com.jstobigdata.multithreading.ex9.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchrinizationExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex4.SynchrinizationExample1" />
+    <configuration name="SemaphoreEnumEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex10.semaphores.SemaphoreEnumEx" />
       <module name="java-multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jstobigdata.multithreading.ex4.*" />
+          <option name="PATTERN" value="com.jstobigdata.multithreading.ex10.semaphores.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadVerify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex7.ThreadVerify" />
+    <configuration name="SemaphoreExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex10.semaphores.SemaphoreExample" />
       <module name="java-multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jstobigdata.multithreading.ex7.*" />
+          <option name="PATTERN" value="com.jstobigdata.multithreading.ex10.semaphores.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex7.VolatileExample" />
+    <configuration name="com.jstobigdata.multithreading.ex8.deadlocks.LivelockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex8.deadlocks.LivelockExample" />
       <module name="java-multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jstobigdata.multithreading.ex7.*" />
+          <option name="PATTERN" value="com.jstobigdata.multithreading.ex9.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadVerify" />
-        <item itemvalue="Application.VolatileExample" />
-        <item itemvalue="Application.ReentrantLockExample" />
-        <item itemvalue="Application.SynchrinizationExample1" />
-        <item itemvalue="Application.PCUsingSemaphoreExample" />
+        <item itemvalue="Application.SemaphoreExample" />
+        <item itemvalue="Application.SemaphoreEnumEx" />
+        <item itemvalue="Application.AtomicIntegerExample" />
+        <item itemvalue="Application.NoAtomicIntegerProblem" />
+        <item itemvalue="Application.com.jstobigdata.multithreading.ex8.deadlocks.LivelockExample" />
       </list>
     </recent_temporary>
   </component>
