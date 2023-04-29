@@ -20,7 +20,8 @@
     </properties>
 
     <modules>
-        <module>java-multithreading-basics</module>
+        <module>java-multithreading-00-basics</module>
+        <module>java-multithreading-01-executors</module>
 
     </modules>
 

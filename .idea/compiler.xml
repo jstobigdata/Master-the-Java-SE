@@ -14,9 +14,9 @@
         <module name="java-02-text-blocks" />
         <module name="java-06-working-with-annotations" />
         <module name="java-00-local-variables" />
-        <module name="java-multithreading" />
         <module name="java-05-instanceof-pattern-matching" />
         <module name="java-07-try-with-autocloseable" />
+        <module name="java-multithreading-01-executors" />
         <module name="java-08-optional" />
         <module name="java-04-switch-expressions" />
       </profile>
@@ -27,6 +27,7 @@
       <module name="java-03-advanced-classes-and-interfaces" target="11" />
       <module name="java-04-generics" target="11" />
       <module name="java-05-lambda-expressions" target="11" />
+      <module name="java-multithreading-basics" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

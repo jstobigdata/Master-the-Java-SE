@@ -4,15 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="215c8cb4-eecf-4876-8061-6d222c41a7b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex10/semaphores/SemaphoreEnumEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex10/semaphores/SemaphoreExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex10/semaphores/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/DeadLocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/DeadLocksB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex9/atomic/NoAtomicIntegerProblem.java" afterDir="false" />
+    <list default="true" id="215c8cb4-eecf-4876-8061-6d222c41a7b1" name="Default Changelist" comment="Added AtomicInteger code logics">
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex10/semaphores/BinarySemaphoreVsMutex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/CachedThreadPoolEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/FixedThreadPoolEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/MyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/ScheduledThreadPoolEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/SingleThreadExecutorEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/SingleThreadScheduledExecutorEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex1/ThreadCreationsExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex1/ThreadCreationsExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex1/ThreadWithRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex1/ThreadWithRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex1/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex1/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex10/semaphores/SemaphoreEnumEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex10/semaphores/SemaphoreEnumEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex10/semaphores/SemaphoreExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex10/semaphores/SemaphoreExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex10/semaphores/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex10/semaphores/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex2/ThreadSleepWaitJoinExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex2/ThreadSleepWaitJoinExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex3/DaemonThreadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex3/DaemonThreadExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex3/GenericWDThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex3/GenericWDThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex3/ThreadPriorityExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex3/ThreadPriorityExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex3/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex3/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex4/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex4/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex4/SynchrinizationExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex4/SynchrinizationExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex4/SynchronizedCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex4/SynchronizedCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex4/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex4/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex5/HandleWIthCustomObjectLocking.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex5/HandleWIthCustomObjectLocking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex5/ObjectLockingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex5/ObjectLockingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex5/ProblemWithSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex5/ProblemWithSynchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex5/ReentrantLockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex5/ReentrantLockExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex6/PCUsingSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex6/PCUsingSemaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex6/PCUsingSemaphoreExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex6/PCUsingSemaphoreExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex6/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex6/ProducerConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex6/ProducerConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex6/ProducerConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex6/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex6/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex7/ThreadVerify.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex7/ThreadVerify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex7/VolatileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex7/VolatileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex7/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex7/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/DeadLocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/DeadLocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/DeadLocksB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/DeadLocksB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/DeadlockA.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/DeadlockA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/LivelockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/LivelockExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex8/deadlocks/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex9/atomic/AtomicIntegerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex9/atomic/AtomicIntegerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex9/atomic/NoAtomicIntegerProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex9/atomic/NoAtomicIntegerProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +73,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.sdkman/candidates/java/17.0.4-tem/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Java-SE-17-Features/java-01-records/src/main/java/com/jstobigdata/jdk17/records/ex1/ProductCategoryR.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2DG5Q83ZUfL90R5XuIEV9lTeqCp" />
   <component name="ProjectViewState">
@@ -46,13 +93,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "full.screen.before.presentation.mode": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.jstobigdata.jdk17.sealed.ex2" />
@@ -62,13 +109,14 @@
       <recent name="$PROJECT_DIR$/Java-SE-17-Features/java-02-sealed-classes-and-interfaces/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.jstobigdata.multithreading.ex9.atomic" />
       <recent name="com.jstobigdata.jdk17.sealed.ex1" />
       <recent name="com.jstobigdata.jdk17.sealed.ex2" />
       <recent name="com.jstobigdata.jdk17.records.ex2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SemaphoreExample">
+  <component name="RunManager" selected="Application.SingleThreadScheduledExecutorEx">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -82,78 +130,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicIntegerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex9.atomic.AtomicIntegerExample" />
-      <module name="java-multithreading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jstobigdata.multithreading.ex9.atomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="CachedThreadPoolEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CachedThreadPoolEx" />
+      <module name="java-multithreading-01-executors" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoAtomicIntegerProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex9.atomic.NoAtomicIntegerProblem" />
-      <module name="java-multithreading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jstobigdata.multithreading.ex9.atomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="FixedThreadPoolEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FixedThreadPoolEx" />
+      <module name="java-multithreading-01-executors" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreEnumEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex10.semaphores.SemaphoreEnumEx" />
-      <module name="java-multithreading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jstobigdata.multithreading.ex10.semaphores.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="ScheduledThreadPoolEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ScheduledThreadPoolEx" />
+      <module name="java-multithreading-01-executors" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex10.semaphores.SemaphoreExample" />
-      <module name="java-multithreading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jstobigdata.multithreading.ex10.semaphores.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="SingleThreadExecutorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingleThreadExecutorEx" />
+      <module name="java-multithreading-01-executors" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.jstobigdata.multithreading.ex8.deadlocks.LivelockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.ex8.deadlocks.LivelockExample" />
-      <module name="java-multithreading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jstobigdata.multithreading.ex9.atomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="SingleThreadScheduledExecutorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingleThreadScheduledExecutorEx" />
+      <module name="java-multithreading-01-executors" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SemaphoreExample" />
-        <item itemvalue="Application.SemaphoreEnumEx" />
-        <item itemvalue="Application.AtomicIntegerExample" />
-        <item itemvalue="Application.NoAtomicIntegerProblem" />
-        <item itemvalue="Application.com.jstobigdata.multithreading.ex8.deadlocks.LivelockExample" />
+        <item itemvalue="Application.SingleThreadScheduledExecutorEx" />
+        <item itemvalue="Application.FixedThreadPoolEx" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +189,14 @@
       <workItem from="1669726559020" duration="288000" />
       <workItem from="1678039990333" duration="11817000" />
     </task>
+    <task id="LOCAL-00001" summary="Added AtomicInteger code logics">
+      <created>1682274325143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682274325143</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +213,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added AtomicInteger code logics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added AtomicInteger code logics" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -203,22 +230,40 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex3/DaemonThreadExample.java</url>
+          <url>file://$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex3/DaemonThreadExample.java</url>
           <line>4</line>
-          <properties class="com.jstobigdata.multithreading.ex3.DaemonThreadExample" method="main">
+          <properties class="com.jstobigdata.multithreading.ex3.DaemonThreadExample">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Core-Java-Features/java-multithreading-basics/src/main/java/com/jstobigdata/multithreading/ex4/SynchrinizationExample1.java</url>
+          <url>file://$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex4/SynchrinizationExample1.java</url>
           <line>3</line>
-          <properties class="com.jstobigdata.multithreading.ex4.SynchrinizationExample1" method="main">
+          <properties class="com.jstobigdata.multithreading.ex4.SynchrinizationExample1">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/ScheduledThreadPoolEx.java</url>
+          <line>6</line>
+          <properties class="ScheduledThreadPoolEx">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/CachedThreadPoolEx.java</url>
+          <line>4</line>
+          <properties class="CachedThreadPoolEx">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Java-SE-17-Features/java-00-local-variables/src/main/java/com/jstobigdata/jdk17/localvariables/TryResourceExample.java</url>
