@@ -4,9 +4,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class WorkStealingPoolExample{
+public class WorkStealingPoolExample {
 
-    public void action(int taskId){
+    public void action(int taskId) {
         System.out.println("Task %d started".formatted(taskId));
         try {
             Thread.sleep(1000); // simulate some work

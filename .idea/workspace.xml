@@ -5,15 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="215c8cb4-eecf-4876-8061-6d222c41a7b1" name="Default Changelist" comment="Added AtomicInteger code logics">
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/FibonacciTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/StopExecutorsEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/WorkStealingPoolExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/c/jbd/multithreading/executors/CallableFutureEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/06ef66ee0f3e6ef037163a37d9422ca047087af5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b7eea198a50c322e69990b157ff29391c81dff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7543b7e6d80d3fcf72586f79d54dccd34fec279" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c530b9e21c492ea65436d5409dde31d3840b2bbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0ed22bbb04f3d047ab5a3ed0856099a0147627b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e28cb67ad6890dc6aea37cce5cba7e44ad296e90" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/c/jbd/multithreading/executors/StopExecutorsEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/c/jbd/multithreading/executors/StopExecutorsEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/c/jbd/multithreading/executors/WorkStealingPoolExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/c/jbd/multithreading/executors/WorkStealingPoolExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,6 +37,7 @@
         <option value="Interface" />
         <option value="module-info" />
         <option value="package-info" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -50,13 +66,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.jstobigdata.jdk17.sealed.ex2" />
@@ -64,6 +82,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Core-Java-Features/java-streams-examples" />
       <recent name="$PROJECT_DIR$/Java-SE-17-Features/java-02-sealed-classes-and-interfaces/src/main/java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="c.jbd.multithreading.executors" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -73,7 +97,7 @@
       <recent name="com.jstobigdata.jdk17.records.ex2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FibonacciTask">
+  <component name="RunManager" selected="Application.CallableFutureEx">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -87,47 +111,87 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.executors.FibonacciTask" />
+    <configuration name="CallableFutureEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="c.jbd.multithreading.executors.CallableFutureEx" />
       <module name="java-multithreading-01-executors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c.jbd.multithreading.executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FixedThreadPoolEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.executors.FixedThreadPoolEx" />
+    <configuration name="ScheduledThreadPoolEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="c.jbd.multithreading.executors.ScheduledThreadPoolEx" />
       <module name="java-multithreading-01-executors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c.jbd.multithreading.executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleThreadExecutorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.executors.SingleThreadExecutorEx" />
+    <configuration name="FibonacciTaskTest.testCompute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-multithreading-01-executors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c.jbd.multithreading.executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="c.jbd.multithreading.executors" />
+      <option name="MAIN_CLASS_NAME" value="c.jbd.multithreading.executors.FibonacciTaskTest" />
+      <option name="METHOD_NAME" value="testCompute" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleThreadScheduledExecutorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.executors.SingleThreadScheduledExecutorEx" />
+    <configuration name="FibonacciTaskTest.testCompute1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-multithreading-01-executors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c.jbd.multithreading.executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="c.jbd.multithreading.executors" />
+      <option name="MAIN_CLASS_NAME" value="c.jbd.multithreading.executors.FibonacciTaskTest" />
+      <option name="METHOD_NAME" value="testCompute1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkStealingPoolExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jstobigdata.multithreading.executors.WorkStealingPoolExample" />
+    <configuration name="FibonacciTaskTest.testComputeThrowsSOE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-multithreading-01-executors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c.jbd.multithreading.executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="c.jbd.multithreading.executors" />
+      <option name="MAIN_CLASS_NAME" value="c.jbd.multithreading.executors.FibonacciTaskTest" />
+      <option name="METHOD_NAME" value="testComputeThrowsSOE" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FibonacciTask" />
-        <item itemvalue="Application.WorkStealingPoolExample" />
-        <item itemvalue="Application.SingleThreadScheduledExecutorEx" />
-        <item itemvalue="Application.FixedThreadPoolEx" />
+        <item itemvalue="Application.CallableFutureEx" />
+        <item itemvalue="Application.ScheduledThreadPoolEx" />
+        <item itemvalue="JUnit.FibonacciTaskTest.testComputeThrowsSOE" />
+        <item itemvalue="JUnit.FibonacciTaskTest.testCompute1" />
+        <item itemvalue="JUnit.FibonacciTaskTest.testCompute" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682771688804</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added AtomicInteger code logics">
+      <created>1682924393589</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682924393589</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +269,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex3/DaemonThreadExample.java</url>
           <line>4</line>
-          <properties class="com.jstobigdata.multithreading.ex3.DaemonThreadExample">
+          <properties class="com.jstobigdata.multithreading.ex3.DaemonThreadExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -207,14 +278,14 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Core-Java-Features/java-multithreading-00-basics/src/main/java/com/jstobigdata/multithreading/ex4/SynchrinizationExample1.java</url>
           <line>3</line>
-          <properties class="com.jstobigdata.multithreading.ex4.SynchrinizationExample1">
+          <properties class="com.jstobigdata.multithreading.ex4.SynchrinizationExample1" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/ScheduledThreadPoolEx.java</url>
+          <url>file://$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/c/jbd/multithreading/executors/ScheduledThreadPoolEx.java</url>
           <line>6</line>
           <properties class="ScheduledThreadPoolEx">
             <option name="EMULATED" value="true" />
@@ -223,7 +294,7 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/CachedThreadPoolEx.java</url>
+          <url>file://$PROJECT_DIR$/Core-Java-Features/java-multithreading-01-executors/src/main/java/c/jbd/multithreading/executors/CachedThreadPoolEx.java</url>
           <line>4</line>
           <properties class="CachedThreadPoolEx">
             <option name="EMULATED" value="true" />
