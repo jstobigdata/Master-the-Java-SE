@@ -10,7 +10,7 @@ public class ScheduledThreadPoolEx {
         ScheduledExecutorService executor = Executors.newScheduledThreadPool(1);
 
         executor.scheduleAtFixedRate(() -> {
-            System.out.println("------ I say Hello in every 1 sec -----");
+            System.out.println("------ I say Hello in every 2 sec -----");
         }, 1, 2, TimeUnit.SECONDS);
 
         executor.schedule(() -> {
