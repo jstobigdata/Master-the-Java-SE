@@ -13,3 +13,4 @@ buildNumber.properties
 /Core-Java-Features/.idea/
 /Java-SE-17-Features/.idea/
 .DS_Store
+/.idea/sonarlint/

@@ -14,6 +14,7 @@ public class CallableFutureEx implements Callable<String> {
 
     @Override
     public String call() throws Exception {
+        Thread.sleep(500); //just to imitate real work
         return "TaskId:"
             + this.taskId
             + " "
@@ -34,6 +35,8 @@ public class CallableFutureEx implements Callable<String> {
         for (Future<String> f:list){
             System.out.println(f.get());
         }
+
+        executorService.shutdown();
 
     }
 }
