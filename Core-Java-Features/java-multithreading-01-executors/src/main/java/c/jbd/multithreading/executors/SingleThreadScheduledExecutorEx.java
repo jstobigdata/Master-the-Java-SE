@@ -18,7 +18,7 @@ public class SingleThreadScheduledExecutorEx {
             executor.submit(() -> {
                 System.out.println("Task: %d in %s started".formatted(taskId, Thread.currentThread().getName()));
                 try {
-                    //Do some actual work for 5 sec
+                    //Do some actual work for 2 sec
                     Thread.sleep(2000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -29,15 +29,15 @@ public class SingleThreadScheduledExecutorEx {
 
 
 
-        executor.schedule(()->{
-            System.out.println("====== Will come in the end =====");
-        },0, TimeUnit.SECONDS);
+        executor.schedule(() -> {
+            System.out.println("===== This message comes in the end =====");
+        }, 2, TimeUnit.SECONDS);
 
         Thread.sleep(5000);
         System.out.println("====== Hello =====");
 
         executor
-                .awaitTermination(10, TimeUnit.SECONDS);
+                .awaitTermination(30, TimeUnit.SECONDS);
         executor.shutdown();
     }
 }
