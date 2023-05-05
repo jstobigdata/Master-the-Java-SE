@@ -4,58 +4,37 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class WorkStealingPoolExample {
+public class WorkStealingPoolEx {
+    private int taskId;
 
-    public void action(int taskId) {
-        System.out.println("Task %d started".formatted(taskId));
-        try {
-            Thread.sleep(1000); // simulate some work
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println("Task %d completed".formatted(taskId));
+    public WorkStealingPoolEx(int taskId) {
+        this.taskId = taskId;
     }
 
+    public void action() {
+        System.out.println("Task: %d started in %s".formatted(taskId, Thread.currentThread().getName()));
+        try {
+            //Simulate some real world behaviour
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println("Task: %d completed in %s".formatted(taskId, Thread.currentThread().getName()));
+    }
 
     public static void main(String[] args) throws InterruptedException {
+        //Create a new work-stealing pool with the default no. of threads
+        ExecutorService executor = Executors.newWorkStealingPool();
 
-        // Create a new work-stealing pool with the default number of threads
-        ExecutorService pool = Executors.newWorkStealingPool();
+        executor.submit(new Thread(new WorkStealingPoolEx(1)::action));
+        executor.submit(new Thread(new WorkStealingPoolEx(2)::action));
+        executor.submit(new Thread(new WorkStealingPoolEx(3)::action));
 
-        // Submit some tasks to the pool
-        pool.submit(() -> {
-            System.out.println("Task 1 started");
-            try {
-                Thread.sleep(1000); // simulate some work
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            System.out.println("Task 1 completed");
-        });
 
-        pool.submit(() -> {
-            System.out.println("Task 2 started");
-            try {
-                Thread.sleep(500); // simulate some work
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            System.out.println("Task 2 completed");
-        });
+        //wait for the activities to start
+        executor.awaitTermination(10, TimeUnit.SECONDS);
 
-        pool.submit(() -> {
-            System.out.println("Task 3 started");
-            try {
-                Thread.sleep(500); // simulate some work
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            System.out.println("Task 3 completed");
-        });
-
-        pool.awaitTermination(10, TimeUnit.SECONDS);
-
-        // Wait for all tasks to complete
-        pool.shutdown();
+        //wait for all the tasks to complete
+        executor.shutdown();
     }
 }
