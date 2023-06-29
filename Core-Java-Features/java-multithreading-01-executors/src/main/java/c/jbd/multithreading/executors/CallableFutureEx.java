@@ -14,31 +14,25 @@ public class CallableFutureEx implements Callable<String> {
 
     @Override
     public String call() throws Exception {
-        Thread.sleep(500); //just to imitate real work
-        return "TaskId:"
-            + this.taskId
-            + " "
-            + Thread.currentThread().getName();
+        //Just to imitate a real-world behaviour
+        Thread.sleep(500);
+        return "TaskId: %d completed in %s"
+                .formatted(taskId, Thread.currentThread().getName());
     }
 
-
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        ExecutorService executorService = Executors.newFixedThreadPool(2);
-        List<Future<String>> list = new ArrayList();
-
+        ExecutorService executor = Executors.newFixedThreadPool(2);
+        List<Future<String>> list = new ArrayList<>();
 
         for (int i = 0; i < 5; i++) {
-            Future<String> future = executorService.submit(new CallableFutureEx(i));
+            Future<String> future = executor.submit(new CallableFutureEx(i));
             list.add(future);
         }
 
-        for (Future<String> f:list){
+        for (Future<String> f : list) {
             System.out.println(f.get());
         }
 
-        executorService.shutdown();
-
+        executor.shutdown();
     }
 }
-
-

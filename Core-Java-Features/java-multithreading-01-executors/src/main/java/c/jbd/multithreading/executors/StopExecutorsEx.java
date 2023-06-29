@@ -5,43 +5,37 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class StopExecutorsEx {
-
     public static void main(String[] args) {
-        usingShutdown();
 
-        //TODO - Supported in JDK-19 onwards
-        //usingTryWithResources();
     }
 
+    //for JDK before 19
     private static void usingShutdown() {
+        //Create the thread pool
         ExecutorService executor = Executors.newSingleThreadExecutor();
-        // submit some tasks to the executor
 
-        // shutdown the executor
+        //add/submit for tasks for execution
+
+        //shutdown the executor
         executor.shutdown();
+
         try {
-            // wait for all tasks to complete or timeout after 5 seconds
+            //wait for all tasks to complete or timeout after 5 seconds
             if (!executor.awaitTermination(5, TimeUnit.SECONDS)) {
-                // forcibly shutdown the executor if tasks haven't completed after 5 seconds
-                executor.shutdownNow();
+                executor.shutdown(); //forcefully shutdown
             }
         } catch (InterruptedException e) {
-            // handle the exception
             throw new RuntimeException(e);
         }
-
     }
 
-    //This code works in JDK-19
-    /*private static void usingTryWithResources() {
+
+    //for jdk above 19
+   /* private static void usingTryWithResource() {
         try (ExecutorService executor = Executors.newFixedThreadPool(2)) {
-            // submit some tasks to the executor
 
         } catch (InterruptedException e) {
-            // handle the exception
             throw new RuntimeException(e);
         }
-
     }*/
-
 }

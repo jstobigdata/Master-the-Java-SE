@@ -4,6 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class CachedThreadPoolEx {
+
     public static void main(String[] args) {
         ExecutorService executor = Executors.newCachedThreadPool();
 
@@ -12,10 +13,11 @@ public class CachedThreadPoolEx {
             executor.submit(() -> {
                 System.out.println("Task: %d in %s started".formatted(taskId, Thread.currentThread().getName()));
                 try {
-                    //Do some actual work for 5 sec
-                    Thread.sleep(5000);
+                    //Just to simulate some actual work
+                    //Thread.sleep(5000);
+                    Thread.sleep(300);
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    throw new RuntimeException(e);
                 }
                 System.out.println("Task: %d in %s completed".formatted(taskId, Thread.currentThread().getName()));
             });
